@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* ========= Theme Extension ========= */
+@theme {
+
+    /* Primary Colors */
+    --color-primary1: #F7EFE7;
+    --color-primary2: #A46A38;
+
+    /* Secondary / Accent */
+    --color-secondary1: #A46A38;
+    --color-secondary2: #2B1A12;
+
+    /* Text */
+     --color-primary-daytext: #2A1A13;
+    --color-primary-ngttext: #2B1A12;
+
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
+
+    --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", sans-serif;
+
+    --font-display: "Poppins", "Inter", system-ui, -apple-system, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+
+/* ========= Base ========= */
+:root {
+    color-scheme: light dark;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Accessibility: respect reduced motion */
+/* @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: smooth;
+  }
+} */
+
+body {
+  @apply bg-primary1 bg-linear-to-b from-secondary1/10 to-secondary2/5 text-primary2 antialiased;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
