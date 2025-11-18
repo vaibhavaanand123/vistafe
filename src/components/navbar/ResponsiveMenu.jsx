@@ -87,13 +87,13 @@ export default function ResponsiveMenu({ id = "responsive-menu", isOpen, closeMe
         </nav>
 
         <div className="flex mt-6 p-2 rounded-md mx-auto justify-evenly">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="https://www.instagram.com/Vistafe_coffee" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <FaInstagram className="text-2xl" />
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <a href="https://www.facebook.com/sumit7055" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
             <FaFacebook className="text-2xl" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/company/vistafe/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin className="text-2xl" />
           </a>
         </div>
